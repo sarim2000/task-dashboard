@@ -7,7 +7,7 @@ import { SetStateAction, useEffect, useState } from "react";
 import styles from "./table.module.css";
 
 const Table = () => {
-  const [data, setData] = useState([
+  const [data] = useState([
     {
       orderId: "#12323",
       status: "Success",
