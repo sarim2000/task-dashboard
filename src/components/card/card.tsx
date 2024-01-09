@@ -1,9 +1,8 @@
 import { CaretRight, Question } from "@phosphor-icons/react";
 import styles from "./card.module.css";
 
-type Props = {}
 
-const Card = (props: Props) => {
+const Card = () => {
   return (
     // create a card that is rectangular where in top its wirtten Next payout and then the next row contains price and number of orders and below that date and time
     <div className={styles.card}>

@@ -3,9 +3,8 @@ import annoucementLogo from "../../assets/announcement.svg";
 import downLogo from "../../assets/down.svg";
 import styles from "./navbar.module.css";
 
-type Props = {};
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.left}>
