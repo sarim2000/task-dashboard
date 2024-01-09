@@ -1,0 +1,153 @@
+.tableContainer {
+  background: white;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  height: 90%;
+  justify-content: space-between;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: justify;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tableHeader input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.tableHeader button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background: #ffffff;
+  cursor: pointer;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 0.4em 0.8em;
+}
+
+.tableHeader button:hover {
+  background-color: gray;
+}
+.center {
+  background: #ffffff;
+  width: 30%;
+  padding: 0.4em;
+  align-items: center;
+  display: flex;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+
+.center_input {
+  background: transparent;
+  outline: 0;
+  border: 0;
+  width: 100%;
+}
+
+.left {
+  display: flex;
+  gap: 0.4em;
+}
+
+.wrapper {
+  padding: 0 1em;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tableContainer {
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.tablethead {
+  background-color: #f2f2f2;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+}
+
+.greenCircle {
+  /* Add your styles here */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  display: inline-block;
+  margin-right: 0.4em;
+}
+
+.grayCircle {
+  /* Add your styles here */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  display: inline-block;
+  margin-right: 0.4em;
+}
+
+.orderId {
+  text-decoration: underline;
+  color: #146eb4;
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+  text-align: right;
+}
+
+td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5) {
+  /* Your styles here */
+  opacity: 0.6;
+}
+.pageNumber {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pageNumber:hover {
+  background-color: #ddd;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+td{
+  border-bottom: 2px solid #f0f0f0;
+}
